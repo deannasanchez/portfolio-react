@@ -1,13 +1,20 @@
 import React from 'react';
-// import { BrowserRouter as Router, Route } from "react-router-dom";
-// import Projects from "./pages/Projects";
-// import About from "./pages/About";
-// import Contact from "./pages/Contact";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/NavBar/navbar";
+import Home from "./pages/Home/Home";
+import About from "./pages/About";
+import Contact from "./components/Contact";
+import "./App.css";
 
 function App() {
   return (
-        <Navbar />
+    <Router>
+      <Navbar />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+    </Router>
+
   );
 }
 
