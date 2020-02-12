@@ -3,17 +3,23 @@
     font-family: 'News Cycle', sans-serif;
 }
 
+.title {
+    font-size: 700%;
+}
+
 .projecttop {
     margin-top: 7%;
 }
 
-.icbtitle {
-    padding-top: 5%;
+.lil-about {
+    background-color: white;
+
 }
 
 .icbcontainer {
     position: relative;
     width: 50%;
+    font-family: 'News Cycle', sans-serif;
 }
 
 .icbimg {
