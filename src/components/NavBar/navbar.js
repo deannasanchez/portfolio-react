@@ -1,4 +1,5 @@
 import React from "react";
+import DS from "../NavBar/ds-simple-logo.png";
 import "./style.css";
 
 function NavBar() {
@@ -6,7 +7,7 @@ function NavBar() {
       <div className="container">
            <div className="row top-page">
                <div className="col-9">
-               <a href="/">Deanna Sanchez</a>
+               <a href="/"><img className="logo" border="0" alt="ds-logo" src={DS} width="80px" height="80px"/></a>
                 </div>
                 <div className="col-1" id="top-right">
                 <a href="/about">About</a>

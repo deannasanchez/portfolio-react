@@ -1,10 +1,20 @@
 .main-home {
-    margin-top: 6%;
     font-family: 'News Cycle', sans-serif;
+    background-image: url("colors-bg.png");
+    background-repeat: no-repeat, repeat;
 }
 
 .title {
     font-size: 700%;
+    margin-top: 17%;
+    margin-bottom: 20%;
+    margin-left:10%;
+    color: white;
+}
+
+.jumbotron {
+    background-image: url("colors-bg.png");
+    margin-top: 20px;
 }
 
 .projecttop {
