@@ -8,7 +8,8 @@ function Contact() {
   return (
     <div className="container">
       <div className="row">
-      <div className="col-10 mt-5"><h1>
+      <div className="col-10 mt-5">
+        <h1 className="title-contact">
           Contact Me
       </h1></div>
       </div>

@@ -4,17 +4,12 @@
     background-repeat: no-repeat, repeat;
 }
 
-.title {
+.title-home {
     font-size: 700%;
     margin-top: 17%;
     margin-bottom: 20%;
     margin-left:10%;
     color: white;
-}
-
-.jumbotron {
-    background-image: url("colors-bg.png");
-    margin-top: 20px;
 }
 
 .projecttop {
@@ -25,22 +20,3 @@
     background-color: white;
 
 }
-
-.icbcontainer {
-    position: relative;
-    width: 50%;
-    font-family: 'News Cycle', sans-serif;
-}
-
-.icbimg {
-    opacity: 1;
-    display: block;
-    width: 50%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-  .icbcontainer:hover .icbimg {
-    opacity: 0.3;
-  }

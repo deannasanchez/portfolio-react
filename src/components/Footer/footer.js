@@ -15,6 +15,11 @@ function Footer() {
         </p>
       </div>
       </div>
+      <div className="row justify-content-md-center align-items-end">
+      <div className="col-">
+        <p>This website was built with ReactJS</p>
+      </div>
+      </div>
       </div>
     </footer>
   );

@@ -7,7 +7,7 @@ function Home() {
       <div className="container main-home">
         <div className="row">
           <div className="col">
-            <h1 className="title">Deanna <br></br>Sanchez</h1>
+            <h1 className="title-home">Deanna <br></br>Sanchez</h1>
           </div>
         </div>
 
@@ -21,15 +21,15 @@ function Home() {
         <div className="row">
           <div className="col-6 project-ph">
             <h4>
-              My name is Deanna Sanchez I'm a Web Developer based in sunny Southern California. I like to consider myself a passionate 
-              problem solver when it comes to Web Design and Development. I've been involved in these industries one way or another for the past 9 years. 
+              My name is Deanna Sanchez I'm a Full-Stack Web Developer based in sunny Southern California. I've been 
+              involved in these industries one way or another for the past 9 years. 
             </h4>
           </div>
 
           <div className="col-6 project-ph">
             <h4> 
-              My love for Web Development grew to the point I knew I needed to make a move to further my skills. So here I am now with my Full-Stack Web Development
-              Certificate from University of Californi, Irvine Continuing Education Division more capable in building web apps than ever.
+              As my love for Web Development grew I knew I needed to further my skills. So I obtained my Full-Stack 
+              Web Development Certificate from University of California, Irvine Continuing Education Division...
             </h4>
           </div>
         </div>
