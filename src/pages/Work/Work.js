@@ -1,6 +1,6 @@
 import React from "react";
 import "./work.css";
-import ICB from "../Home/icecoldbeats.png";
+import ICB from "../Work/icecoldbeats.png";
 import Footer from "../../components/Footer/footer";
 
 function Work() {
